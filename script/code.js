@@ -24,16 +24,16 @@ btn.addEventListener('click', function(){
 if (weight >= 1){
     switch(true) {
         case(BMI < 18.5 ):
-        category = 'Underweight';
+        category = ' Underweight';
         break;
         case(BMI < 24.9 ):
-        category = 'Normal';
+        category = ' Normal';
         break;
         case(BMI < 29.9 ):
-        category = 'Overweight';
+        category = ' Overweight';
         break;
         case(BMI < 39.9 ):
-        category = 'Obese';
+        category = ' Obese';
         break;
         }}
     document.getElementById('comment').innerHTML =
